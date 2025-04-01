@@ -1,0 +1,10 @@
+1st -- Create Virtual Environment
+    python -m venv myenv
+
+    .\my_first_env\Scripts\activate
+
+2nd -- Now install mySql connector
+    pip install mysql-connector-python
+
+    -- To save requirments
+    pip freeze > requirments.txt
