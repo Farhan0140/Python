@@ -9,8 +9,6 @@ mydb = mysql.connector.connect(
     database = db_name
 )
 
-table_name = "Student"
-
 mycursor = mydb.cursor()
 
 sqlquery = """
