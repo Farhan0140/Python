@@ -19,23 +19,52 @@ print(List[7: 3: -1])  # [10, 34, 99, 12]
 print(List[1: 9: 2])  # [23, 123, 99, 10]
 
 
+# -----------------------------
+
+Odd = []
+
+for num in List:
+    if num & 1:
+        Odd.append(num)
+
+print(Odd)  #  [1, 23, 123, 99]
+
+
+# ---- (advanced) list comprehension in python
+
+Odd_Nums = [ num for num in List if num & 1 ]
+print(Odd_Nums)  #  [1, 23, 123, 99]
+
+Odd_Nums = [ num for num in List if num & 1 if num % 3 == 0]
+print(Odd_Nums)  #  [123, 99]
+
+
 
 
 # -----------------------------
+
+
 fruits = ['orange', 'apple', 'pear', 'banana', 'kiwi', 'apple', 'banana']
 fruits.count('apple')
 # >>> 2
+
 fruits.count('tangerine')
 # >>> 0
+
 fruits.index('banana')
 # >>> 3
+
 fruits.index('banana', 4)  # Find next banana starting at position 4
 # >>> 6
+
 fruits.reverse()
 # >>> ['banana', 'apple', 'kiwi', 'banana', 'pear', 'apple', 'orange']
+
 fruits.append('grape')
 # >>> ['banana', 'apple', 'kiwi', 'banana', 'pear', 'apple', 'orange', 'grape']
+
 fruits.sort()
 # >>> ['apple', 'apple', 'banana', 'banana', 'grape', 'kiwi', 'orange', 'pear']
+
 fruits.pop()
 # >>> 'pear'
