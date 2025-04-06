@@ -1,5 +1,5 @@
 1st -- Create Virtual Environment
-    python -m venv myenv
+    python -m venv my_first_env
 
     .\my_first_env\Scripts\activate
 
