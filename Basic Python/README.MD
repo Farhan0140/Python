@@ -5,7 +5,7 @@
 1. [Tuples](https://github.com/Farhan0140/Python/blob/main/Basic%20Python/Tuples.py)
 1. [Set](https://github.com/Farhan0140/Python/blob/main/Basic%20Python/Set.py)
 1. [Dictionary](https://github.com/Farhan0140/Python/blob/main/Basic%20Python/Dictionary.py)
-1. []()
+1. [Built in modules time, math, random, etc](https://github.com/Farhan0140/Python/blob/main/Basic%20Python/Built%20in%20modules.py)
 1. []()
 1. []()
 1. []()
