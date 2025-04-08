@@ -9,5 +9,8 @@
 1. [PyAutoGUI](https://github.com/Farhan0140/Python/blob/main/Basic%20Python/PyAutoGUI.py)
 1. [Try Except](https://github.com/Farhan0140/Python/blob/main/Basic%20Python/Try%20Except.py)
 1. [File Read Write](https://github.com/Farhan0140/Python/blob/main/Basic%20Python/File%20Read%20Write.py)
+1. [Lamda Function](https://github.com/Farhan0140/Python/blob/main/Basic%20Python/Lamda%20Function.py)
+1. []()
+1. []()
 1. []()
 1. []()
