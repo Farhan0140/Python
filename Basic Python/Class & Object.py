@@ -94,6 +94,38 @@ print( my_2nd_phone.owner, my_2nd_phone.brand, my_2nd_phone.price)  #   Farhan O
 
 
 
+
+# __________ ( __repr__ ) _____________
+"""
+is a special function used to represent the objects 
+of a class in the form of a string
+"""
+
+class A:
+    def __init__(self, value):
+        self.value = value
+
+a = A(13)
+print(a)    #   <__main__.A object at 0x00000287E0BA6A50>
+
+
+# --------->
+
+class A:
+    def __init__(self, value):
+        self.value = value
+
+    def __repr__(self):
+        return f'This value is {self.value}'
+
+a = A(13)
+print(a)    #   This value is 13
+
+
+
+
+
+
 # ________ Class Attributes vs instance attributes ___________
 
 #   Class Attributes
