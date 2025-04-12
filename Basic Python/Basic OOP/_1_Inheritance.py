@@ -88,6 +88,9 @@ class Phone:
     def phone_call(self, number, text):
         return f'Sending SMS to: {number} with: {text}'
     
+    def __repr__(self):
+        return f'Has dual SIM: {self.dual_sim}'
+    
 
 class Camera:
     def __init__ (self, pixel) -> None:
@@ -96,7 +99,14 @@ class Camera:
     def change_lens (self):
         pass
 
+"""
+
+Without relation, we can only access
 
 
+my_phn = Phone(True)
+my_phn.phone_call()
+print(my_phn)
 
+"""
 # ---------------------------------------------
