@@ -14,7 +14,10 @@
 1. [Class & Object](https://github.com/Farhan0140/Python/blob/main/Basic%20Python/Class%20%26%20Object.py)
 1. [Projects](https://github.com/Farhan0140/Python/tree/main/Projects/Basic_class)
 
-1. ### OOP ( Object-Oriented Programming )
+1. ### Basic OOP ( Object-Oriented Programming )
     - Inheritance
-        * [Inheritance]()
-        * [Multi-level Inheritance]()
+        * [Inheritance Concepts](https://github.com/Farhan0140/Python/blob/main/Basic%20Python/Basic%20OOP/Inheritance%20Concepts.py)
+        * [Inheritance](https://github.com/Farhan0140/Python/blob/main/Basic%20Python/Basic%20OOP/_1_Inheritance.py)
+        * [Multi-level Inheritance](https://github.com/Farhan0140/Python/blob/main/Basic%20Python/Basic%20OOP/Multi-level%20Inheritance.py)
+        * [Multiple Inheritance](https://github.com/Farhan0140/Python/blob/main/Basic%20Python/Basic%20OOP/Multiple%20Inheritance.py)
+        * []()
