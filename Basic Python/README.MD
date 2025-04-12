@@ -12,7 +12,7 @@
 1. [File Read Write](https://github.com/Farhan0140/Python/blob/main/Basic%20Python/File%20Read%20Write.py)
 1. [Lamda Function](https://github.com/Farhan0140/Python/blob/main/Basic%20Python/Lamda%20Function.py)
 1. [Class & Object](https://github.com/Farhan0140/Python/blob/main/Basic%20Python/Class%20%26%20Object.py)
-1. [Projects](https://github.com/Farhan0140/Python/tree/main/Projects/Basic_OOP)
+1. [Projects](https://github.com/Farhan0140/Python/tree/main/Projects/Basic_class)
 1. []()
 1. []()
 1. []()
