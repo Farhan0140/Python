@@ -21,8 +21,10 @@ class Derived_Class( Base_Class ):
 
 1. simple inheritance: parent class --> child class 
 
+2. Multi-level inheritance: Grandpa --> Parent --> child
 
-2. Multi-level inheritance: Granpa --> Parent --> child
+3. Multiple Inheritance
 
+4. Hybrid
 """
 
