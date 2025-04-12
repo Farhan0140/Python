@@ -56,8 +56,20 @@ g_l = AC_Bus('Green Line', 50000000, 30, 26.8)
 print(g_l)  #  Bus Name: Green Line, 
 
 
-
-
-
-
 # ----------->
+
+
+pk = PickUpTruck('Iqbal', 20000, 5000, 50)
+tisha = Bus('Tisha', 50000, 50)
+
+
+print(issubclass(AC_Bus, Vehicle))  # True
+print(issubclass(AC_Bus, Bus))  # True
+print(issubclass(AC_Bus, Truck))  # False
+
+
+print(isinstance(tisha, AC_Bus))    # False
+print(isinstance(tisha, Vehicle))    # True
+print(isinstance(pk, Truck))    # True
+print(isinstance(pk, Vehicle))    # True
+print(isinstance(g_l, Bus))    # True
