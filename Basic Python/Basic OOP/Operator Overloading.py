@@ -70,8 +70,8 @@ print( p1.__floordiv__(p2) )    # 14
 
 Addition	          p1 + p2	    p1.__add__(p2)
 Subtraction	          p1 - p2	    p1.__sub__(p2)
-Multiplication	      p1 * p2	    p1.__mul__(p2)
-Power	              p1 ** p2	    p1.__pow__(p2)
+Multiplication	          p1 * p2	    p1.__mul__(p2)
+Power	                  p1 ** p2	    p1.__pow__(p2)
 Division	          p1 / p2	    p1.__truediv__(p2)
 Floor Division	      p1 // p2	    p1.__floordiv__(p2)
 Remainder (modulo)	  p1 % p2	    p1.__mod__(p2)
