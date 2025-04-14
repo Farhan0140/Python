@@ -125,6 +125,15 @@ class Cricketer( Person ):
 
     def __mul__(self, other):
         return self.weight * other.weight
+    
+    def __len__(self):
+        return self.height
+    
+    def __gt__(self, other):
+        return self.age > other.age
+    
+    def __lt__(self, other):
+        return self.height < other.height
 
 
 
