@@ -20,7 +20,12 @@
         * [Inheritance](https://github.com/Farhan0140/Python/blob/main/Basic%20Python/Basic%20OOP/_1_Inheritance.py)
         * [Multi-level Inheritance](https://github.com/Farhan0140/Python/blob/main/Basic%20Python/Basic%20OOP/Multi-level%20Inheritance.py)
         * [Multiple Inheritance](https://github.com/Farhan0140/Python/blob/main/Basic%20Python/Basic%20OOP/Multiple%20Inheritance.py)
+    - Encapsulation
         * [Encapsulation and Access Modifiers (Public, Private, Protected)](https://github.com/Farhan0140/Python/blob/main/Basic%20Python/Basic%20OOP/Encapsulation%20and%20Access%20Modifiers%20(Public%2C%20Private%2C%20Protected).py)
+    - Abstraction
         * [Abstract Classes and Abstract-method](https://github.com/Farhan0140/Python/blob/main/Basic%20Python/Basic%20OOP/6.6%20Abstract%20Classes.py)
+    - Polymorphism
         * [Polymorphism](https://github.com/Farhan0140/Python/blob/main/Basic%20Python/Basic%20OOP/Polymorphism.py)
-        * []()
+
+1. [Operator Overloading]()
+1. [Method Overriding]()
