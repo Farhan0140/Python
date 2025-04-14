@@ -27,5 +27,5 @@
     - Polymorphism
         * [Polymorphism](https://github.com/Farhan0140/Python/blob/main/Basic%20Python/Basic%20OOP/Polymorphism.py)
 
-1. [Operator Overloading]()
-1. [Method Overriding]()
+1. [Operator Overloading](https://github.com/Farhan0140/Python/blob/main/Basic%20Python/Basic%20OOP/Operator%20Overloading.py)
+1. [Method Overriding](https://github.com/Farhan0140/Python/blob/main/Basic%20Python/Basic%20OOP/Method%20Overriding.py)
