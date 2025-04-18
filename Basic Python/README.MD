@@ -33,7 +33,7 @@
 1. [Getter Setter and Read only property Using Property Decorator](https://github.com/Farhan0140/Python/blob/main/Basic%20Python/Basic%20OOP/Getter%20Setter%20and%20Read%20only%20property.py)
 1. [Inner function and Wrapper function](https://github.com/Farhan0140/Python/blob/main/Basic%20Python/Basic%20OOP/Inner%20and%20Wrapper%20function.py)
 1. [Decorator](https://github.com/Farhan0140/Python/blob/main/Basic%20Python/Basic%20OOP/Decorator.py)
-1. []()
+1. [Class Composition. inheritance vs composition](https://github.com/Farhan0140/Python/blob/main/Basic%20Python/Basic%20OOP/Class%20Composition.py)
 1. []()
 1. []()
 1. []()
