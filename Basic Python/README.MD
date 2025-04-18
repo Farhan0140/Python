@@ -30,6 +30,6 @@
 1. [Operator Overloading](https://github.com/Farhan0140/Python/blob/main/Basic%20Python/Basic%20OOP/Operator%20Overloading.py)
 1. [Method Overriding](https://github.com/Farhan0140/Python/blob/main/Basic%20Python/Basic%20OOP/Method%20Overriding.py)
 1. [Static Attribute, Static Method and Class Method decorator](https://github.com/Farhan0140/Python/blob/main/Basic%20Python/Basic%20OOP/Static%20Attribute%2C%20Static%20Method%20and%20Class%20Method%20decorator.py)
-1. []()
+1. [Getter Setter and Read only property Using Property Decorator](https://github.com/Farhan0140/Python/blob/main/Basic%20Python/Basic%20OOP/Getter%20Setter%20and%20Read%20only%20property.py)
 1. []()
 1. []()
