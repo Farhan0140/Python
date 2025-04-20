@@ -10,7 +10,7 @@ class Library:
 class Book:
     def __init__(self, book_id, title, author):
         self._book_id = book_id
-        self.title = title
+        self._title = title
         self.__author = author
         self._availability = True
 
@@ -54,7 +54,7 @@ class Book:
             if not books._availability:
                 s = 'Not Available'
                     
-            print(f'Book id: {books._book_id}  Title: {books.title}  Author: {books.__author}  Availability: {s}')
+            print(f'Book id: {books._book_id}  Title: {books._title}  Author: {books.__author}  Availability: {s}')
             print('* ------------------- *   ' )
 
 
