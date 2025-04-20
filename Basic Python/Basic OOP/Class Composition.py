@@ -72,7 +72,8 @@ class RAM:
 
 
 class HardDrive:
-    def __init__ (self, capacity) -> None:
+    def __init__ (self, model, capacity) -> None:
+        self.model = model
         self.capacity = capacity
 
 
@@ -80,14 +81,15 @@ class HardDrive:
 # computer "has a" ram
 # computer "has a" hard drive
 class Computer:
-    def __init__ (self, cores, ram_size, hd_capacity) -> None:
+    def __init__ (self, cores, ram_size, hd_capacity, hd_model) -> None:
         self.cpu = CPU(cores)
         self.ram = RAM(ram_size)
-        self.hard_disc = HardDrive(hd_capacity)
+        self.hard_disc = HardDrive(hd_model, hd_capacity)
 
 
-Windows = Computer(8, 16, 10000)
+Windows = Computer(8, 16, 10000, 'Kt-890')
 
+print( Windows.hard_disc.model )
 
 
 
