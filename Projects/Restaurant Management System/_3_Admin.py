@@ -3,6 +3,7 @@ import _1_User as usr
 import _2_Employee as emp
 import _4_Restaurant as rest
 import _6_Food_Item as fd_itm
+import _7_Customer as cstmr
 
 
 class Admin( usr.User ):
@@ -40,8 +41,8 @@ class Admin( usr.User ):
 
 
 
-_1_rest = rest.Restaurant('Suganda')
-_1st_admin = Admin('Farhan', 23, '123123', 'asdasd@asd.com', 'dhaka', 'CEO')
+# _1_rest = rest.Restaurant('Suganda')
+# _1st_admin = Admin('Farhan', 23, '123123', 'asdasd@asd.com', 'dhaka', 'CEO')
 
 
 
@@ -51,13 +52,24 @@ _1st_admin = Admin('Farhan', 23, '123123', 'asdasd@asd.com', 'dhaka', 'CEO')
 
 
 # _1_f = fd_itm.Food_Item('Pizza', 1200, 10)
-# _2_f = fd_itm.Food_Item('Burgir', 600, 20)
+# _2_f = fd_itm.Food_Item('Burgir', 600, 5)
 
 
 # _1st_admin.add_item(_1_rest, _1_f)
 # _1st_admin.add_item(_1_rest, _2_f)
 
-# _1st_admin.remove_item(_1_rest, 'Burgir')
+# # _1st_admin.remove_item(_1_rest, 'Burgir')
+
+# # _1st_admin.show_menu(_1_rest)
+
+# _1_cstmr = cstmr.Customer('Mitu', '0144545', 'mitu@gmail.com', 'Bosti')
+# _1_cstmr.add_to_cart(_1_rest, 'pizza', 3)
+# _1_cstmr.add_to_cart(_1_rest, 'burgir', 3)
+
+# _1_cstmr.remove_from_cart(_1_rest, 'burgir')
+# # _1_cstmr.remove_from_cart(_1_rest, 'pizza')
+
+# _1_cstmr.view_cart()
 
 # _1st_admin.show_menu(_1_rest)
 
