@@ -25,7 +25,7 @@ class Order:
         if item in self.items:
             del self.items[item]
 
-
+    @property
     def total_price(self):
         return sum( item.price * quantity  for item, quantity in self.items.items() )
     
