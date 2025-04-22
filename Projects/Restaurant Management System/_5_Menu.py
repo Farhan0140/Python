@@ -1,6 +1,4 @@
 
-import _6_Food_Item as fd_itm
-
 
 class Menu:
     def __init__(self):
@@ -53,16 +51,5 @@ class Menu:
         for item in self.items:
             print(f'{item.item_name}\t{item.price}\t{item.quantity}')
 
-
-
-# mnu = Menu()
-
-# _1_f = fd_itm.Food_Item('Pizza', 1200, 10)
-# _2_f = fd_itm.Food_Item('Burgir', 600, 20)
-
-# mnu.add_item(_1_f)
-# mnu.add_item(_2_f)
-
-# mnu.show_menu()
 
 
