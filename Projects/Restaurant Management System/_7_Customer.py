@@ -1,6 +1,5 @@
 
 import _1_User as usr
-import _5_Menu as mnu
 import _8_Order as odr
 
 
@@ -59,6 +58,6 @@ class Customer( usr.User ):
         for itm, quantity in self.cart.items.items():
             print(f'{itm.item_name}\t{itm.price}\t{quantity}')
 
-        print(f'Total Price: {self.cart.total_price()}')
+        print(f'Total Price: {self.cart.total_price}')
 
 
