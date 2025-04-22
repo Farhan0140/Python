@@ -19,6 +19,22 @@ class Menu:
         print(f' * { item.item_name } is added successfully the list * ')
 
 
+    def update_item(self, item_name, quantity):
+        for item in self.items:
+            if item.item_name.lower() == item_name.lower():
+                if quantity > 0:
+                    item.quantity = quantity
+                    return
+                else:
+                    self.items.remove(item)
+                    return
+                
+    def update_item_1(self, item_name, quantity):
+        for item in self.items:
+            if item.item_name.lower() == item_name.lower():
+                    item.quantity += quantity
+
+
     def remove_item(self, item_name):
         item = self.find_item(item_name)
 
