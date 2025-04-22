@@ -12,7 +12,3 @@ class Employee( usr.User ):
         self.join_date = time.ctime()
         super().__init__(name, phone, email, address)
 
-
-
-# new_employee = Employee('Farhan', 23, '01403527730', 'Nadim@gmail.com', 'Dhaka', 20000, 'Junior Software Engineer')
-# print(new_employee.__dict__)
