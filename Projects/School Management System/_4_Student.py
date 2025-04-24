@@ -26,9 +26,17 @@ class Student( Person ) :
 
     def calculate_final_grade(self):
         total_grade = 0
+        gpa = 0
 
         for key, val in self.subject_grade.items():
             total_grade += School.grad_to_value(val)
 
-        self.grade = School.value_to_grade(total_grade / len(self.subject_grade))
+        if total_grade == 0:
+            gpa = 0.00
+            self.grade = 'F'
+        else:
+            gpa = total_grade / len(self.subject_grade)
+            self.grade = School.value_to_grade(gpa)
+
+        # print(f'Name: {self.name} Final Grade: {self.grade} with CGPA: {gpa}')
 

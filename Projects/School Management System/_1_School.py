@@ -123,10 +123,10 @@ class School:
         print(' * _____ Students Results ____ * ')
         for key, value in self.classrooms.items():
             for student in value.students:
-                print(f' -> {student.name}')
+                print(f'  -> {student.name} <-  ')
                 for sub_name, grade in student.marks.items():
                     print(f'-- {sub_name}: {grade} --> {student.subject_grade[ sub_name ]}')
-                print(student.grade)
+                print(f'-- Total grade: {student.grade}')
 
         return ''
 

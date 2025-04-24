@@ -10,7 +10,7 @@ class Teacher( Person ):
 
     
     def evaluate_exam(self):
-        return random.randint(1, 100)
+        return random.randint(50, 100)
     
     
 
