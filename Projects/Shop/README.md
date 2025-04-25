@@ -38,7 +38,7 @@ Shop/
 ├── _6_Order.py        # Order class to manage cart and total price
 ├── main.py            # Main application runner and logic
 └── README.md
-
+```
 
 
 ## ▶️ How to Run
