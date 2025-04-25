@@ -38,3 +38,24 @@ Shop/
 ├── _6_Order.py        # Order class to manage cart and total price
 ├── main.py            # Main application runner and logic
 └── README.md
+
+
+
+## ▶️ How to Run
+#### 🧰 Prerequisites
+    Python 3.x
+
+## 🚀 Run the application
+    python main.py
+
+## 📋 Usage Instructions
+###🔐 On Start
+    - Choose whether you already have an account
+    - Select role: Seller or Customer
+    - Log in or create a new account
+
+## 🧑 Seller Panel
+    1. Add Product
+    2. Remove Product
+    3. See Products
+    4. Exit
