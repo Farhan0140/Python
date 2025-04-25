@@ -34,6 +34,15 @@ class Shop:
         print(f' *  {item_name} Successfully Removed  * ')
 
 
+    def update_item(self, item_name, quantity):
+        product = self.find_item(item_name)
+        if quantity == 0:
+            self.products.remove(product)
+            return
+        
+        product.quantity = quantity
+
+
     def show_all_products(self):
         print(f'\t* _____ Shop _____ * ')
         print('Name\tPrice\tQuantity\tPer')
