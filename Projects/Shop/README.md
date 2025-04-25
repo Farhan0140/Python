@@ -49,7 +49,7 @@ Shop/
     python main.py
 
 ## 📋 Usage Instructions
-###🔐 On Start
+### 🔐 On Start
     - Choose whether you already have an account
     - Select role: Seller or Customer
     - Log in or create a new account
