@@ -59,3 +59,18 @@ Shop/
     2. Remove Product
     3. See Products
     4. Exit
+
+## 🧍 Customer Panel
+    1. Available Products
+    2. Add to Cart
+    3. Remove from Cart
+    4. View Cart
+    5. Pay Bill
+    6. Exit
+
+
+## 📚 OOP Concepts Used
+    - Inheritance (Customer, Seller ← Person)
+    - Encapsulation (private cart/order structure)
+    - Polymorphism (method overriding via interface design)
+    - Composition (Shop contains Item list, Customer has Order, etc.)
