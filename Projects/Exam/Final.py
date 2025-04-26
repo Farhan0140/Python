@@ -182,7 +182,7 @@ class Restaurant:
                 print(f' * {person_name} removed successfully * ')
                 self.customers.remove(p)
                 return
-        print('\"\"\"\n  Person Not Found\n  Please provide correct Name ans Email\n\"\"\"')
+        print('\"\"\"\n  Person Not Found\n  Please provide correct Name and Email\n\"\"\"')
 
     def show_all_customer_info(self):
         print('\n * --- All Customers --- * ')
@@ -346,7 +346,7 @@ while True:
             if customer:
                 Customer__(customer)
             else:
-                print('\"\"\"\n  Person Not Found\n  Please provide correct Name ans Email\n\"\"\"')
+                print('\"\"\"\n  Person Not Found\n  Please provide correct Name and Email\n\"\"\"')
 
     except ValueError:
         print(f'Error: {ValueError}')
