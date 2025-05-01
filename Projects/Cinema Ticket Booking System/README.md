@@ -66,8 +66,8 @@ python Temp.py
 
 ## 👤 Author
 - **Your Name**  
-- GitHub: [@YourUsername](https://github.com/YourUsername)
-- Email: your@email.com
+- GitHub: [@Farhan0140](https://github.com/Farhan0140)
+- Email: farhan0000@gmail.com
 
 ---
 
@@ -75,10 +75,3 @@ python Temp.py
 - Inspired by real-world booking systems (e.g., Star Cineplex)
 - Designed as a structured OOP practice project
 
----
-
-## 🎉 Extra Ideas for Future
-- Add save/load system (JSON or txt)
-- Implement login sessions
-- Add movie reviews & rating system
-- Convert to GUI with Tkinter or PyQt
