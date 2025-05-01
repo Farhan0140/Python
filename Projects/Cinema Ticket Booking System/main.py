@@ -32,7 +32,7 @@ star_cineplex.add_movie(movie3)
 star_cineplex.add_movie(movie4)
 star_cineplex.add_movie(movie5)
 
-# clr_scr()
+clr_scr()
 
 
 
@@ -82,60 +82,60 @@ def find_user(email, u_pass, a_or_c):
 
 def Customer__(user):
     while True:
-        # clr_scr()
-        print('[1] Update Info\n[2] View Movie List\n[3] Book Ticket\n[4] View Available Sits\n[5] Check Balance\n[6] Cash In\n[7] View Cart\n[8] Pay Bill\n[9] View Previous Orders\n[10] Exit')
+        clr_scr()
+        print('[1] Update Info\n[2] View Movie List\n[3] Book Ticket\n[4] View Available Seats\n[5] Check Balance\n[6] Cash In\n[7] View Cart\n[8] Pay Bill\n[9] View Previous Orders\n[10] Exit')
         try:
             check = int(input('--->  '))
             if check == 1:
-                # clr_scr()
+                clr_scr()
                 user.update_info(star_cineplex, user)
 
             elif check == 2:
-                # clr_scr()
+                clr_scr()
                 user.view_movie_list(star_cineplex)
                 pe()
 
             elif check == 3:
-                # clr_scr()
+                clr_scr()
                 user.view_movie_list(star_cineplex)
                 m_name = input('Enter Movie Name: ')
-                m_sits = int(input('Enter How Many Sits you need: '))
-                # clr_scr()
-                chk = input('[y/n] View Available Sits\n--> ')
+                m_seats = int(input('Enter How Many Seats you need: '))
+                clr_scr()
+                chk = input('[y/n] View Available Seats\n--> ')
                 if chk.lower() == 'y':
-                    user.view_available_sits(star_cineplex, m_name)
-                    user.book_ticket(star_cineplex, m_name, m_sits)
+                    user.view_available_seats(star_cineplex, m_name)
+                    user.book_ticket(star_cineplex, m_name, m_seats)
                 else:
-                    user.book_ticket(star_cineplex, m_name, m_sits)
+                    user.book_ticket(star_cineplex, m_name, m_seats)
                 pe()
             elif check == 4:
-                # clr_scr()
+                clr_scr()
                 m_name = input('Enter Movie Name: ')
-                user.view_available_sits(star_cineplex, m_name)
+                user.view_available_seats(star_cineplex, m_name)
                 pe()
             elif check == 5:
-                # clr_scr()
+                clr_scr()
                 print(f'Available Balance: {user.check_balance()}' )
                 pe()
             elif check == 6:
-                # clr_scr()
+                clr_scr()
                 u_amount = float(input('Enter amount to cash-in: '))
                 user.add_balance(u_amount)
                 pe()
             elif check == 7:
-                # clr_scr()
+                clr_scr()
                 user.view_cart()
                 pe()
             elif check == 8:
-                # clr_scr()
-                chk = input('Do you have any coupons [y/n] :')
+                clr_scr()
+                chk = input('Do you have any coupons [y/n]: ')
                 if chk.lower() == 'y':
                     c_code = input('Enter Coupon Code: ')
                     user.add_coupon(star_cineplex, c_code)
                 user.pay_bill()
                 pe()
             elif check == 9:
-                # clr_scr()
+                clr_scr()
                 user.view_past_orders()
                 pe()
             elif check == 10:
@@ -152,16 +152,16 @@ def Customer__(user):
 
 def Admin__(user):
     while True:
-        # clr_scr()
+        clr_scr()
         print('[1] Update Info\n[2] Add Movie\n[3] Remove Movie\n[4] Update Movie Info\n[5] Show Movies\n[6] Add Coupon\n[7] Remove Coupon\n[8] View Coupons\n[9] Remove User\n[10] View Customers Info\n[11] Exit')
         try:
             check = int(input('--->  '))
             if check == 1:
-                # clr_scr()
+                clr_scr()
                 user.update_info(star_cineplex, user)
 
             elif check == 2:
-                # clr_scr()
+                clr_scr()
                 m_name = input('Enter Movie Name: ')
                 m_director = input('Enter Director: ')
                 m_running_time = input('Enter Running Time: ')
@@ -171,39 +171,39 @@ def Admin__(user):
                 user.add_movie(star_cineplex, movie)
                 pe()
             elif check == 3:
-                # clr_scr()
+                clr_scr()
                 m_name = input('Enter Movie Name to Remove: ')
                 user.remove_movie(star_cineplex, m_name)
                 pe()
             elif check == 4:
-                # clr_scr()
+                clr_scr()
                 m_name = input('Enter Movie Name to Update: ')
                 user.update_movie_info(star_cineplex, m_name)
             elif check == 5:
-                # clr_scr()
+                clr_scr()
                 star_cineplex.print_all_movie_info()
                 pe()
             elif check == 6:
-                # clr_scr()
+                clr_scr()
                 c_code = input('Enter Coupon Code: ')
                 c_dis = input('Enter Discount in (%): ')
                 user.add_coupon(star_cineplex, c_code, c_dis)
                 pe()
             elif check == 7:
-                # clr_scr()
+                clr_scr()
                 c_code = input('Enter Coupon Code: ')
                 user.remove_coupon(star_cineplex, c_code)
                 pe()
             elif check == 8:
-                # clr_scr()
+                clr_scr()
                 user.view_coupon(star_cineplex)
                 pe()
             elif check == 9:
-                # clr_scr()
+                clr_scr()
                 s_email = input('Enter customer email to remove: ')
                 user.remove_user(star_cineplex, s_email)
             elif check == 10:
-                # clr_scr()
+                clr_scr()
                 user.view_users_info(star_cineplex)
                 pe()
             elif check == 11:
@@ -221,18 +221,18 @@ def Admin__(user):
 
 
 while True:
-    # clr_scr()
+    clr_scr()
     print(f' * ____ Welcome to {star_cineplex.hall_name} ____ * \n')
     try:
         check = input('-> Do you have an account? [y/n/Enter for Exit]: ').lower()
 
         if check == 'y':
-            # clr_scr()
+            clr_scr()
             print('Login Account')
             print('1. As a admin\n2. As a customer')
             check = int(input('--->  '))
             if check == 1:
-                # clr_scr()
+                clr_scr()
                 s_email = input('Enter your email: ')
                 s_pass = input('Enter your password: ')
                 user = find_user(s_email, s_pass, 'a')
@@ -242,7 +242,7 @@ while True:
                     input('Press Enter To exit: ')
 
             elif check == 2:
-                # clr_scr()
+                clr_scr()
                 c_email = input('Enter your email: ')
                 c_pass = input('Enter your password: ')
                 user = find_user(c_email, c_pass, 'c')
@@ -253,13 +253,13 @@ while True:
 
 
         elif check == 'n':
-            # clr_scr()
+            clr_scr()
             print('Create an account :')
             print('1. As a admin\n2. As a customer')
             check = int(input('--->  '))
 
             if check == 1:
-                # clr_scr()
+                clr_scr()
                 s_name = input('Enter your name: ')
                 s_email = input('Enter your email: ')
                 s_pass = input('Enter your password: ')
@@ -272,7 +272,7 @@ while True:
                 input('Press Enter To exit: ')
             
             elif check == 2:
-                # clr_scr()
+                clr_scr()
                 c_name = input('Enter your name: ')
                 c_email = input('Enter your email: ')
                 c_pass = input('Enter your password: ')

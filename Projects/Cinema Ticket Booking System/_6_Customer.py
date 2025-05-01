@@ -18,12 +18,12 @@ class Customer( User ):
         cinema_hall.print_all_movie_info()
 
 
-    def book_ticket(self, cinema_hall, movie_name, sit_no):
+    def book_ticket(self, cinema_hall, movie_name, seat_no):
         movie = cinema_hall.find_using_name(movie_name, 'm')
         if movie:
-            if (movie.ticket_price * sit_no) <= self.wallet:
+            if (movie.ticket_price * seat_no) <= self.wallet:
                 ticket = Ticket()
-                ticket.add_ticket(movie, sit_no)
+                ticket.add_ticket(movie, seat_no)
                 self.cart.add_to_cart(ticket)
             else:
                 print(f'--- Insufficient Balance!! ---')
@@ -40,10 +40,10 @@ class Customer( User ):
             print('--- Invalid Amount ---')
 
 
-    def view_available_sits(self, cinema_hall, movie_name):
+    def view_available_seats(self, cinema_hall, movie_name):
         movie = cinema_hall.find_using_name(movie_name, 'm')
         if movie:
-            movie.sits.view_sit_map()
+            movie.seats.view_seat_map()
         else:
             print('--- Movie Not Found ---')
 

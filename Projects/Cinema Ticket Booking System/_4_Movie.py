@@ -1,5 +1,5 @@
 
-from _5_Sits import Sits
+from _5_Seats import Seats
 
 
 
@@ -10,6 +10,6 @@ class Movie:
         self.running_time = running_time
         self.release_date = release_date
         self.ticket_price = ticket_price
-        self.sits = Sits()
+        self.seats = Seats()
 
 

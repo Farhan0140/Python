@@ -3,29 +3,29 @@
 class Ticket:
     def __init__(self):
         self.total_price = 0.0
-        self.sits = {}
+        self.seats = {}
 
     
-    def add_ticket(self, movie, sits_no):          # sits = []
-        if movie.sits.is_available_sit():
-            if movie.sits.available_sits >= sits_no:
-                sit_lst = movie.sits.book_sits(sits_no)
+    def add_ticket(self, movie, seats_no):          # seats = []
+        if movie.seats.is_available_seat():
+            if movie.seats.available_seats >= seats_no:
+                seat_lst = movie.seats.book_seats(seats_no)
 
-                if sit_lst:
-                    self.total_price += (movie.ticket_price * len(sit_lst))
-                    self.sits[movie] = sit_lst
-                    print('--- Sits booked successfully ---')
+                if seat_lst:
+                    self.total_price += (movie.ticket_price * len(seat_lst))
+                    self.seats[movie] = seat_lst
+                    print('--- Seats booked successfully ---')
             else:
-                print(f'--- {sits_no} seats are not available! ---')
-                print(f' --- {movie.sits.available_sits} are available now --- ')
+                print(f'--- {seats_no} seats are not available! ---')
+                print(f' --- {movie.seats.available_seats} are available now --- ')
 
 
     def show_ticket_info(self):
-        for movie, sit in self.sits.items():
+        for movie, seat in self.seats.items():
             print(f'-> {movie.name}')
             print(f'Total Price: {self.total_price} ---')
-            print('Sit no. -> ', end='')
-            for st in sit:
+            print('Seat no. -> ', end='')
+            for st in seat:
                 print(f'[{st[0]} {st[1]}]', end=' ')
             print('\n-----------------------------------------')
 
