@@ -10,6 +10,12 @@ A command-line based movie ticket booking system built in Python using Object-Or
 ---
 
 ## 📦 Features
+- 🎟️ Book tickets for available movies
+- 🧑 Admin panel for managing movies and users
+- 💰 Wallet and coupon system
+- 🪑 Real-time seat booking (2D view)
+- 📜 View previous orders
+
 
 ### 👤 Authentication
 - Create and login as **Admin** or **Customer**
