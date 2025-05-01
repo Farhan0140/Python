@@ -4,7 +4,7 @@ A command-line based movie ticket booking system built in Python using Object-Or
 
 
 ## 📸 Preview
-![Image](https://github.com/user-attachments/assets/1e73db93-a098-4e03-95ca-cfbb68a7284a)
+![Demo](demo.gif)
 
 
 ---
