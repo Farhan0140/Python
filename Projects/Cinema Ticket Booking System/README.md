@@ -3,6 +3,8 @@
 A command-line based movie ticket booking system built in Python using Object-Oriented Programming (OOP). It features admin and customer roles, seat selection, coupon discounts, and order history.
 
 
+## 📸 Preview
+![Image](https://github.com/user-attachments/assets/20e56570-fa3d-4b70-9f53-13467b9c9074)
 
 ---
 
